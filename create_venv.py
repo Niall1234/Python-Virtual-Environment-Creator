@@ -1,7 +1,7 @@
 import os, sys
 
 if len(sys.argv) < 2:
-    print("Usage: Type a name for your virtual environment")
+    print("Usage: Type a name(s) for your virtual environment")
     sys.exit()
 
 current_directory = os.getcwd()
